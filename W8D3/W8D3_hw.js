@@ -93,9 +93,9 @@ function isPrime(number){
 function sumOfNPrimes(number){
 
 
-    let count = 0;
-    let sumPrimes = 0;
-    for (i = 2; count < number; i++){
+    var count = 0;
+    var sumPrimes = 0;
+    for (var i = 2; count < number; i ++){
         if (isPrime(i)){
             count ++;
             sumPrimes += i;
